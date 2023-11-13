@@ -74,7 +74,7 @@ const OrderModal = () => {
     console.log(data);
     dispatch(setOrder({ order: [] }));
     handleClose();
-    dispatch(setPage(1));
+    dispatch(setPage({ page: 1 }));
   };
 
   let totalPrice = 0;
